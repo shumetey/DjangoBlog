@@ -1,0 +1,321 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>The Book - Store &amp; Blog App</title>
+
+    <!-- Favicon -->
+    <!-- <link rel="icon" href="{% static 'img/core-img/favicon.ico' %}"> -->
+
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="cssload-container">
+            <div class="cssload-loading"><i></i><i></i><i></i><i></i></div>
+        </div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+        <!-- Navbar Area -->
+        <div class="palatin-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Menu -->
+                    <nav class="classy-navbar justify-content-between" id="palatinNav">
+
+                        <!-- Nav brand -->
+                                        
+                        <a class="nav-brand" href="#">
+                            Book <span>Store</span>
+                        </a>
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+
+                            <!-- close btn -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul>
+                                    <li class="active"><a href="{% url 'index' %}">Home</a></li>
+                                    <li><a href="{% url 'about' %}">About Us</a></li>
+                                    <li><a href="{% url 'service' %}">Services</a></li>
+                                    <li><a href="{% url 'contact' %}">Contact</a></li>
+                                </ul>
+
+                                <!-- Button -->
+                                <div class="menu-btn">
+                                    <a href="#" class="btn palatin-btn">Make a Book</a>
+                                </div>
+
+                            </div>
+                            <!-- Nav End -->
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-area">
+        <div class="hero-slides owl-carousel">
+
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide d-flex align-items-center justify-content-center">
+                <!-- Slide Img -->
+                <div class="slide-img bg-img" style="background-image: url('{% static 'images/20.jpg' %}')"></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-lg-9">
+                            <!-- Slide Content -->
+                            <div class="hero-slides-content" data-animation="fadeInUp" data-delay="100ms">
+                                <div class="line" data-animation="fadeInUp" data-delay="300ms"></div>
+                                <h2 data-animation="fadeInUp" data-delay="500ms">A Books to remember</h2>
+                                <p data-animation="fadeInUp" data-delay="700ms">The more that you read, the more things you will know. The more that you learn, the more places you'll go." - Dr. Seuss Reading is to the mind what exercise is to the body." - Joseph Addison
+
+                                    "Reading is a discount ticket to everywhere." - Mary Schmich</p>
+                                <a href="#" class="btn palatin-btn mt-50" data-animation="fadeInUp" data-delay="900ms">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide d-flex align-items-center justify-content-center">
+                <!-- Slide Img -->
+                <div class="slide-img bg-img" style="background-image: url('{% static 'images/22.jpg' %}')"></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-lg-9">
+                            <!-- Slide Content -->
+                            <div class="hero-slides-content" data-animation="fadeInUp" data-delay="100ms">
+                                <div class="line" data-animation="fadeInUp" data-delay="300ms"></div>
+                                <h2 data-animation="fadeInUp" data-delay="500ms">Enjoy your life</h2>
+                                <p data-animation="fadeInUp" data-delay="700ms">"The more that you read, the more things you will know. The more that you learn, the more places you'll go." - Dr. Seuss</p>
+                                <a href="#" class="btn palatin-btn mt-50" data-animation="fadeInUp" data-delay="900ms">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide d-flex align-items-center justify-content-center">
+                <!-- Slide Img -->
+                <div class="slide-img bg-img" style="background-image: url('{% static 'images/21.jpg' %}')"></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-lg-9">
+                            <!-- Slide Content -->
+                            <div class="hero-slides-content" data-animation="fadeInUp" data-delay="100ms">
+                                <div class="line" data-animation="fadeInUp" data-delay="300ms"></div>
+                                <h2 data-animation="fadeInUp" data-delay="500ms">Read more Books</h2>
+                                <p data-animation="fadeInUp" data-delay="700ms">"The more that you read, the more things you will know. The more that you learn, the more places you'll go." - Dr. Seuss</p>
+                                <a href="#" class="btn palatin-btn mt-50" data-animation="fadeInUp" data-delay="900ms">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide d-flex align-items-center justify-content-center">
+                <!-- Slide Img -->
+                <div class="slide-img bg-img" style="background-image: url('{% static 'images/18.jpg' %}')"></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-lg-9">
+                            <!-- Slide Content -->
+                            <div class="hero-slides-content" data-animation="fadeInUp" data-delay="100ms">
+                                <div class="line" data-animation="fadeInUp" data-delay="300ms"></div>
+                                <h2 data-animation="fadeInUp" data-delay="500ms">Be Innovative</h2>
+                                <p data-animation="fadeInUp" data-delay="700ms">A reader lives a thousand lives before he dies. The man who never reads lives only one." - George R.R. Martin</p>
+                                <a href="#" class="btn palatin-btn mt-50" data-animation="fadeInUp" data-delay="900ms">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide d-flex align-items-center justify-content-center">
+                <!-- Slide Img -->
+                <div class="slide-img bg-img" style="background-image: url('{% static 'images/16.jpg' %}')"></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-lg-9">
+                            <!-- Slide Content -->
+                            <div class="hero-slides-content" data-animation="fadeInUp" data-delay="100ms">
+                                <div class="line" data-animation="fadeInUp" data-delay="300ms"></div>
+                                <h2 data-animation="fadeInUp" data-delay="500ms">Enjoy your life</h2>
+                                <p data-animation="fadeInUp" data-delay="700ms">"Reading is essential for those who seek to rise above the ordinary." - Jim Rohn</p>
+                                <a href="#" class="btn palatin-btn mt-50" data-animation="fadeInUp" data-delay="900ms">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ##### Hero Area End ##### -->
+
+    <section class="rooms-area section-padding-100-0">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-12">
+                    <div class="section-heading text-center">
+                        <div class="line-"></div>
+                        <h2>Book Description</h2>
+                        <p>This Book is an epic fantasy novel written
+                             by renowned author Jane Smith. It spans a total of 500 pages and is set in 
+                             a richly detailed and immersive world. The story follows the journey of a young
+                              hero named John, who embarks on a perilous quest to save his kingdom from an
+                               ancient evil. The book is filled with intricate plot twists, captivating 
+                               characters, and breathtaking action sequences. Jane Smith's masterful 
+                               storytelling transports readers to a realm where magic and adventure intertwine. 'The Great Adventure' is a must-read for fans of high fantasy, as it seamlessly blends elements of heroism, friendship,
+                             and self-discovery. With its vivid descriptions and imaginative world-building,
+                              this book promises to keep readers enthralled from beginning to end.
+                            A reader lives a thousand lives before he dies. The man who never reads lives 
+                            only one." - George R.R. MartinReading is essential for those who seek to rise
+                             above the ordinary." - 
+                            Jim RohnReading is to the mind what exercise is to the body." - Joseph</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ##### book Area End ##### -->
+
+    <!-- ##### Contact Area Start ##### -->
+    <section class="contact-area d-flex flex-wrap align-items-center">
+        <div class="home-map-area">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22236.40558254599!2d-118.25292394686001!3d34.057682914027104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2z4Kay4Ka4IOCmj-CmnuCnjeCmnOCnh-CmsuCnh-CmuCwg4KaV4KeN4Kav4Ka-4Kay4Ka_4Kar4KeL4Kaw4KeN4Kao4Ka_4Kav4Ka84Ka-LCDgpq7gpr7gprDgp43gppXgpr_gpqgg4Kav4KeB4KaV4KeN4Kak4Kaw4Ka-4Ka34KeN4Kaf4KeN4Kaw!5e0!3m2!1sbn!2sbd!4v1532328708137" allowfullscreen></iframe>
+        </div>
+        <!-- Contact Info -->
+        <div class="contact-info">
+            <div class="section-heading wow fadeInUp" data-wow-delay="100ms">
+                <div class="line-"></div>
+                <h2>Contact Info</h2>
+                <p>we are in mekelle, Mekelle is the capital city of the Tigray region in northern Ethiopia. It is located at approximately 13.4967°N latitude and 39.4750°E longitude. Mekelle is known for its rich history, 
+                    cultural heritage, and as a center for education and commerce in the region.</p>
+            </div>
+            <h4 class="wow fadeInUp" data-wow-delay="300ms">Mekelle, the capital city of Tigray region</h4>
+            <h5 class="wow fadeInUp" data-wow-delay="400ms">+251 948504987</h5>
+            <h5 class="wow fadeInUp" data-wow-delay="500ms">shumetey@gmail.com</h5>
+            <!-- Social Info -->
+            <div class="social-info mt-50 wow fadeInUp" data-wow-delay="600ms">
+                <a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Contact Area End ##### -->
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row">
+
+                <!-- Footer Widget Area -->
+                <div class="col-12 col-lg-5">
+                    <div class="footer-widget-area mt-50">
+                                
+                        <a href="#" class="d-block mb-5">
+                            Mega<span>Book</span>
+                        </a>
+                        <p>Reading books is an immersive journey where words become windows to new worlds,
+                             transporting us to places we've never been and introducing us to characters who feel like old friends. </p>
+                    </div>
+                </div>
+
+                <!-- Footer Widget Area -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="footer-widget-area mt-50">
+                        <h6 class="widget-title mb-5">Find us on the map</h6>
+                        <img src="{% static 'img/bg-img/footer-map.png' %}" alt="">
+                    </div>
+                </div>
+
+                <!-- Footer Widget Area -->
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="footer-widget-area mt-50">
+                      <h6 class="widget-title mb-5">Subscribe to my BookWise Blog</h6>
+                      <form id="subscribeForm" action="#" method="post" class="subscribe-form">
+                        {% csrf_token %}
+                        <input type="email" name="subscribe-email" id="subscribeemail" placeholder="Your E-mail">
+                        <button type="submit" id="subscribeButton">Subscribe</button>
+                      </form>
+                    </div>
+                  </div>
+
+                <!-- Copywrite Text -->
+                <div class="col-12">
+                    <div class="copywrite-text mt-30">
+                        <p><a href="#">
+                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by 
+                    <a href="#" target="_blank">Shumetey</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+<script>
+    $(document).ready(function() {
+      $('#subscribeForm').submit(function(e) {
+        e.preventDefault(); 
+
+        var email = $('#subscribeemail').val();
+        alert('Subscription successful for email: ' + email);
+        $('#subscribeemail').val('');
+      });
+    });
+  </script>
+    <!-- ##### Footer Area End ##### -->
+
+    <!-- ##### All Javascript Script ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="{% static 'js/jquery/jquery-2.2.4.min.js' %}"></script>
+    <!-- Popper js -->
+    <script src="{% static 'js/bootstrap/popper.min.js' %}"></script>
+    <!-- Bootstrap js -->
+    <script src="{% static 'js/bootstrap/bootstrap.min.js' %}"></script>
+    <!-- All Plugins js -->
+    <script src="{% static 'js/plugins/plugins.js' %}"></script>
+    <!-- Active js -->
+    <script src="{% static 'js/active.js' %}"></script>
+</body>
+
+</html>
