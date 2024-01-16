@@ -35,7 +35,6 @@ def contact_us(request):
 
 def book_desc(request):
     # book = Book.objects.get(id=book_id)
-
     # context = {'book': book}
     return render(request, 'book_desc.html') #, context)
 
