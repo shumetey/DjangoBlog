@@ -65,8 +65,8 @@ def book_update(request, pk):
             form.save()
             return redirect('book_list')
     else:
-        form = BookForm(instance=book)
-    return render(request, 'book_form.html', {'form': form})
+        # form = BookForm(instance=book)
+    return render(request, 'book_form.html', {'form': book})
 
 def book_delete(request, pk):
     book = Book.objects.get(pk=pk)
